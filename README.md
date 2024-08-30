@@ -18,8 +18,9 @@ git clone https://github.com/nhan2k0/xtremedia_backuprepo.git --branch 1.2
 
 
 ## Note
-Old codebase, use at your own risk
-1.2 is modfield in this version
+- Old codebase, use at your own risk
+- 1.2 modifeld, not original codebase
+- This repo is meant for preserve
 
 
 
