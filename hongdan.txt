@@ -1,0 +1,52 @@
+﻿XtreMedia 1.2
+
+Demo : http://thaonguyentinhyeu.com/music
+
+Các chú ý :
+1. Hiện tại source này chỉ support tại WareZones.com
+2. Các bạn nên đọc kỹ bài viết này trước khi hỏi điều gì, đỡ gây phiền cho người khác
+3. Đừng hỏi tôi về skin hoặc bất cứ trang Web nào sử dụng source này
+
+
+Bản 1.1 vì làm vội quá nên có nhiều lỗi, mong các bạn bỏ qua .
+Các thay đổi trong bản 1.2 này :
+Sửa :
++ Lỗi login, thay skin ( do không setcookie được )
++ Lỗi refresh
++ Lỗi search ( hiển thị một đoạn SQL )
++ Lỗi vẫn play được Singer + Album dù chưa đăng nhập
++ Lỗi hiển thị sai nội dung Lyric
++ Lỗi playlist
++ Lỗi xuất hiện thẻ <tr> đầu file khi View Source
++ Lỗi này hình như không có ai phát hiện ra thì phải ( vì không thấy báo ) : khi login xong trang Web sẽ trở về trang trước đó. Nếu bạn nhấn vào bất kỳ Link nào thì nó sẽ load lại một lân nữa.
++ Phần comment đã được hiển thị ra ngoài ( theo đa số yêu cầu của mọi người ), hỗ trợ tất cả Emoticons của Yahoo! Messenger nhưng không hiện ra để chọn ( vì lười quá nên không làm, các bạn test lại xem có OK không ), chống Flood Comment ( User chỉ được post tối đa 1 comment trong vòng 2 phút cho 1 bài hát, còn Admin + Mod thì spam nhiêu cũng được )
+
+Thêm :
++ Top Play + Top Download
++ Intro Song : bài hát mở đầu cho mỗi lần play ( để quảng cáo Web ấy mờ ). Vào Admin Cp -> Cấu hình để chọn.
++ Add thông tin Album
++ Thêm Search User trong AdminCP
++ Khi sửa bất cứ một cái gì xong, Web sẽ trở về trang quản lý thay vì về lại trang trước.
++ Thêm Check All + Uncheck All Local URL trong Thêm nhiều Media
+
+Có thể còn những chỗ khác mà Red không nhớ nữa :-??
+
+Các thay đổi trong skin : chỉ có comment.html, play_info.html và play.html thôi thì phải :-??
+
+HƯỚNG DẪN CÀI ĐẶT :
+1. Import file data.sql vào Database
+2. Vào file includes/config.php sửa thông số cho phù hợp
+3. Đăng nhập vào Admin CP ( /admin ) với username + pwd đều là admin. Đến phần Cấu hình --> Link Web, sửa lại cho đúng ( nếu không sẽ bị lỗi Login do không set cookie được )
+4. Xong roài
+
+HƯỚNG DẪN UPDATE TỪ 1.1 LÊN 1.2 : ( không cần đọc nếu bạn cài đặt mới )
+1. Upload source mới.
+2. Run update/111.php. File update này cũng sẽ sửa lỗi không thể phân quyền MOD được.
+3. Đăng nhập vào Admin CP ( /admin ). Đến phần Cấu hình --> Link Web, sửa lại cho đúng ( nếu không sẽ bị lỗi Login do không set cookie được )
+
+MỘT SỐ CHÚ Ý NỮA :
+1. Nếu vẫn bị lỗi không login được, hoặc không tìm thấy file ... thì bạn hãy vào file config.php, tìm $setCookieType, sửa lại thành 2.
+2. Nếu bạn vẫn xài file play_info.html của skin cũ thì sẽ không thể hiện comment ra được.
+
+Y!m để support : xtremedia.source
+Y!m tác giả : redphoenix89 

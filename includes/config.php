@@ -6,7 +6,7 @@ $db_user	= 'root';
 $db_pass	= '';
 $tb_prefix	= 'media_';
 $refreshType = 1;
-$setCookieType = 1;
+$setCookieType = 2;
 
 if (!defined('IN_MEDIA')) die("Hacking attempt");
 error_reporting(E_ALL & ~E_NOTICE & ~E_WARNING);
