@@ -1,6 +1,4 @@
-# Xtremedia1.2
-Xtremedia is the Vietnamese open-source music hosting written by RedPhoenix89
-![image](https://user-images.githubusercontent.com/42825138/130751507-8c529cec-40db-4949-8626-346cd0c51b0a.png)
+# Xtremedia1.2 (1.2mod)
 ## Clone the repository
 ```
 --1.1 branch
