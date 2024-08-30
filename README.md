@@ -15,8 +15,10 @@ git clone https://github.com/nhan2k0/xtremedia_backuprepo.git --branch 1.2
 - Import `data.sql`
 - Configure database in `includes/config.php` for correct database username, db name
 
-In case, the page report with template error, move all the files from `templates/funnycolors` to `templates` folder or messing around skin configuration at admin page
-
 ## Note
 - Old codebase, use at your own risk
 - This repo is meant for preserve
+
+Toàn bộ code được viết bởi RedPhoenix89, tác giả muốn yêu cầu gỡ repo xin hãy liên hệ với mình
+
+Repo này được tạo nhằm mục đích lưu trữ
