@@ -19,8 +19,8 @@ git clone https://github.com/nhan2k0/xtremedia_backuprepo.git --branch 1.2mod
 - Configure database in `includes/config.php` for correct database username, db name
 
 ## Note
-- This believe to be 1.2 tho the homepage said 1.1
-- Instuction and changelog can be found in `hongdan.txt`
+- This believe to be 1.2 although the homepage said 1.1 (every known issue which happened in 1.1.1 has been fixed in this version)
+- Instuctions and changelog can be found in `hongdan.txt`
 - Old codebase, use at your own risk
 - This repo is meant for preserve
 
