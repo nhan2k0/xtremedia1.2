@@ -18,22 +18,8 @@ git clone https://github.com/nhan2k0/xtremedia_backuprepo.git --branch 1.2
 
 
 ## Note
-This repo is in Vietnamese, so go ahead and grab Google Translate
-
-This is the modified source code from 1.2 with some changes, the preview will not look the same this one provided, as the original 1.2 source code is in the search due to the site where provided the original one gone, meanwhile i can only provide this one, in case the original found, another branch will be release
-
-I do not code anything from this repo, this repo is like a backup repo, as there's no repo about this, i will not receive pull request and issue but appreciate to fork 
-
-Due to the extremely outdated code, Windows Media Plugin will not functioning in Google Chrome as well as every Chromium based browser and Mozila Firefox, but Internet Explorer will be work(in theory, every IE should be fine)
-
-Please test it at your own risk (recommended localhost), as the code is outdated, many security vulnerable will be occurred
-
-As always credit to RedPhoenix89 for making this
-If the original author request to remove this repository, i'm willing to do
-## Known Issues
-- Latest version of PHP will not work
-- Some of element using Flash Player
-- Windows Media Player Plugin will not work in modern Chromium based browser and Mozila Firefox
+Old codebase, use at your own risk
+1.2 is modfield in this version
 
 
 
