@@ -19,6 +19,6 @@ git clone https://github.com/nhan2k0/xtremedia_backuprepo.git --branch 1.2
 - Old codebase, use at your own risk
 - This repo is meant for preserve
 
-Toàn bộ code được viết bởi RedPhoenix89, tác giả muốn yêu cầu gỡ repo xin hãy liên hệ với mình
-
-Repo này được tạo nhằm mục đích lưu trữ
+## Lưu ý
+- Toàn bộ code được viết bởi RedPhoenix89, tác giả muốn yêu cầu gỡ repo xin hãy liên hệ với mình
+- Repo này được tạo nhằm mục đích lưu trữ
