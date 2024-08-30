@@ -20,6 +20,7 @@ git clone https://github.com/nhan2k0/xtremedia_backuprepo.git --branch 1.2mod
 
 ## Note
 - This believe to be 1.2 tho the homepage said 1.1
+- Instuction and changelog can be found in `hongdan.txt`
 - Old codebase, use at your own risk
 - This repo is meant for preserve
 
