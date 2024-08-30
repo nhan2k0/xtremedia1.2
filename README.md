@@ -18,5 +18,6 @@ git clone https://github.com/nhan2k0/xtremedia_backuprepo.git --branch 1.2
 In case, the page report with template error, move all the files from `templates/funnycolors` to `templates` folder or messing around skin configuration at admin page
 
 ## Note
-
-Old codebase, use at your own risk
+- Old codebase, use at your own risk
+- 1.2 modifeld, not original codebase
+- This repo is meant for preserve
